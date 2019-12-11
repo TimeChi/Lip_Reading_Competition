@@ -10,11 +10,10 @@ github上显示可能有些问题，也可以访问我的博客https://blog.csdn
 
 ## 二、比赛方案
 ### 1.初赛回顾
-初赛赛题是对一组唇语图片序列进行中文单词的预测，给定的数据集是封闭集（类别数量是一定的，测试集中的类别均在训练集中出现过），如下图所示：
-<div align=center>
+初赛赛题是对一组唇语图片序列进行中文单词的预测，给定的数据集是封闭集（类别数量是一定的，测试集中的类别均在训练集中出现过），如下图所示：<div align=center>
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191210141555553.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjkwNzQ3Mw==,size_16,color_FFFFFF,t_70)
-  
-上图一共有5组唇语序列，代表着不同的中文词语。
+
+上图一共有5组唇语序列，代表着不同的中文词语。<div align=right>
 
 ### 2.数据分析
 拿到数据，我们先简单的对数据进行了分析：
@@ -25,7 +24,7 @@ github上显示可能有些问题，也可以访问我的博客https://blog.csdn
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191210145411627.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjkwNzQ3Mw==,size_16,color_FFFFFF,t_70)
 两字词和四字词图片数量对比
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191210145454531.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjkwNzQ3Mw==,size_16,color_FFFFFF,t_70)
-训练集和测试集样本图片数量对比
+训练集和测试集样本图片数量对比<div align=right>
 
 &#8195;数据分析让我们对数据有了一个整体的把握。除此以外，我们还观察了一些样本数据，发现了他们采集的样本中，包含说话的有用信息图片大都集中在前半序列中，而最后几张往往都是闭嘴状态，没有提供任何有用的信息。
 &nbsp;
