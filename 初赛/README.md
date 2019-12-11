@@ -12,7 +12,7 @@
 训练完成后执行infer.sh文件即可得到生成在result文件夹下的sub_2.csv文件
 
 #权重文件：
-仅提供初赛resnet101+tsm的权重文件作为测试
+仅提供初赛resnet101+tsm的权重文件作为测试 权重文件百度云链接：https://pan.baidu.com/s/1EeVVZ5W6fx0Dbqf6q916qw 密码：fthm
 
 #运行环境:
 硬件：GTX1080Ti或RTX2080Ti双卡环境,CUDA10, cudnn，ubuntu16.04。
