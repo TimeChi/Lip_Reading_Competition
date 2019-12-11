@@ -4,6 +4,7 @@ github上排版可能有些问题，也可以访问我的博客https://blog.csdn
 **队名**：学学没完
 
 **队伍成绩**：
+
 初赛榜 0.85245 排名第一 （a榜第二，b榜重回第一）
 
 决赛榜 0.9307 排名第二  （第一老哥很猛，搞得我们很慌，硬是肝了一晚上才拉近了和他们的差距）
@@ -24,10 +25,8 @@ github上排版可能有些问题，也可以访问我的博客https://blog.csdn
 * 313类中有311个类别有32个样本，只有“落地生根”和“卓有成效”两个样本有22个样本，可以说样本非常均衡。
 * 样本的图片数量，除了异常数据外，基本分布在2张到24张之间，且两字词和四字词的图片数量有大量重叠，这意味着这一维信息很难利用，在测试集中的图片数量也基本和训练集一致。<div align=center>
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191210145411627.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjkwNzQ3Mw==,size_16,color_FFFFFF,t_70)
-  
-两字词和四字词图片数量对比
+两字词和四字词图片数量对比<div align=center>
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20191210145454531.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjkwNzQ3Mw==,size_16,color_FFFFFF,t_70)
-
 训练集和测试集样本图片数量对比<div align=left>
 
 &#8195;数据分析让我们对数据有了一个整体的把握。除此以外，我们还观察了一些样本数据，发现了他们采集的样本中，包含说话的有用信息图片大都集中在前半序列中，而最后几张往往都是闭嘴状态，没有提供任何有用的信息。
